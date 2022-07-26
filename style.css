@@ -1,0 +1,140 @@
+
+.nav{
+    padding: 0 50px;
+    height: 100px;
+    background-color: rgb(119, 16, 18);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    }
+.logo{
+        color: rgb(197, 117, 19);
+        font-size: 40px;
+        text-decoration: overline;
+    }
+.link{
+    color: rgb(180, 173, 173);
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.link:hover{
+    color: rgb(12, 111, 78);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+table{
+color: rgb(54, 21, 239);
+}
+img{
+    height: 20%;
+    width: 20%;
+}
+div{
+    margin-bottom: 25px;
+}
+body{
+    background-color: aquamarine;
+}
+div  b{
+    color: brown;
+}
+#text_1{
+    color: rgb(231, 40, 145);
+}
+.container{
+    background:url("https://source.unsplash.com/z8YeJOMn51A/400x400");
+    width:300px; height:300px; background-position:center;
+    }
+input[type="password"],input[type="text"]{
+    color: brown;
+
+    }
+label[for="login"]{
+    color: blue;
+}
+.main_link:hover{
+    color: red;
+    text-decoration:dotted;
+    padding: 10px;
+    cursor: pointer;
+}
+div:hover{
+    background-color: blue;
+}
+#text_1:hover{
+    background-color: rgb(225, 225, 21);
+}
+input::placeholder{
+    color: rgb(43, 226, 70);
+}
+body{
+    font-family: 'Caveat', cursive;
+}
+h2:active::after{
+    text-decoration: line-through;
+    content: 'Some';
+    
+}
+input:focus{
+    color: rgb(222, 24, 24);
+}
+#text::after{
+    color: rgb(198, 19, 111);
+}
+.container::first-line{
+    color: blue;
+}
+.container:hover{
+    text-decoration: underline;
+    color: rgb(129, 79, 12);
+    
+}
+h2:first-of-type{
+    text-decoration: overline;
+}
+.container{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+h2{
+    text-transform: capitalize;
+    text-shadow: 5px 5px red ;
+    text-align: center;
+    background-color: blanchedalmond;
+    line-height: 50px;
+}
+.block{
+background: red;
+height: 200px;
+width: 300px;
+border: 7px dotted silver;
+border-bottom:0;
+border-top-style: solid;
+border-style: double;
+
+border-radius: 15px 50% ;
+
+opacity: 1;
+margin: 20px 50px;
+padding: 20px 50px;
+display: block;
+float: left;
+}
+#header{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-bottom: 4px solid silver;
+    background: #333;
+    color: #fff;
+    line-height: 50px;
+}

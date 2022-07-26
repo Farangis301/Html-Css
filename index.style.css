@@ -1,0 +1,16 @@
+
+.block{
+    margin: 100px auto;
+    padding: 20px;
+    background: rgb(253, 219, 187);
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin-left: 30px;
+}
+
+img{
+    width: 300px; /*меняем размер картинки*/
+}
